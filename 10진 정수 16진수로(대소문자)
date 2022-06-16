@@ -1,0 +1,7 @@
+a = input()
+n = int(a)
+print('%x'% n) # 소문자 출력 = '%x'% a
+
+a = input()
+n = int(a)
+print('%X'% n) # 대문자 출력 = '%X'% a
