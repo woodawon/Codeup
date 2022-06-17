@@ -1,22 +1,32 @@
-# a = int(input())
-# print(a<<1)
+a = int(input())
+print(a<<1)
 
-# a,b = input().split()
-# print(int(a)<<int(b))
+a,b = input().split()
+print(int(a)<<int(b))
 
-# n = int(input())
-# print(bool(n)) # bool() - 참 거짓 평가
+n = int(input())
+print(bool(n)) # bool() - 참 거짓 평가
 
-# a = bool(int(input()))
-# print(not a) # not 예약어
+a = bool(int(input()))
+print(not a) # not 예약어
 
-# a,b = input().split()
-# print(bool(int(a)) or bool(int(b))) # and 예약어
+a,b = input().split()
+print(bool(int(a)) or bool(int(b))) # and 예약어
 
-# a = input()
-# n = int(a)
-# print(~n) # ~(bitwise not), &(bitwise and), |(bitwise or), ^(bitwise xor), <<(bitwise left shift), >>(bitwise right shift)
+a = input()
+n = int(a)
+print(~n) # ~(bitwise not), &(bitwise and), |(bitwise or), ^(bitwise xor), <<(bitwise left shift), >>(bitwise right shift)
             # ~n = -n-1 , -n = ~n+1
 
-# a,b = input().split()
-# print(int(a) & int(b)) # 비트단위 and(&) 
+a,b = input().split()
+print(int(a) & int(b)) # 비트단위 and(&) 
+
+a, b = input().split()
+c = (a if(int(a) >= int(b)) else b)
+print(c) # if문 사용
+
+a,b,c = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+print((a if a < b else b) if ((a if a < b else b) < c) else c) # if문으로 가장 작은 값 찾아서 출력
