@@ -1,0 +1,7 @@
+a = input()
+n = int(a)
+print(~n) # ~(bitwise not), &(bitwise and), |(bitwise or), ^(bitwise xor), <<(bitwise left shift), >>(bitwise right shift)
+            # ~n = -n-1 , -n = ~n+1
+
+a,b = input().split()
+print(int(a) & int(b)) # 비트단위 and(&) 
