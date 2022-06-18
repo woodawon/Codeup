@@ -1,0 +1,13 @@
+n = int(input())
+print(bool(n)) # bool() - 참 거짓 평가
+
+a = bool(int(input()))
+print(not a) # not 예약어
+
+a,b = input().split()
+print(bool(int(a)) and bool(int(b))) # and 예약어
+
+a,b = input().split()
+c = bool(int(a))
+d = bool(int(b))
+print(c and (not d) or (not c) and d) # 참, 거짓 서로 다를 때만 출력
