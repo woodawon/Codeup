@@ -1,9 +1,1 @@
-a, b = input().split()
-c = (a if(int(a) >= int(b)) else b)
-print(c) # if문 사용
 
-a,b,c = input().split()
-a = int(a)
-b = int(b)
-c = int(c)
-print((a if a < b else b) if ((a if a < b else b) < c) else c) # if문으로 가장 작은 값 찾아서 출력
