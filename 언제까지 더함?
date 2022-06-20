@@ -1,0 +1,10 @@
+n = int(input())
+k = 0
+s = k
+while n>s:
+    if n>k:
+        k += 1
+        s += k
+        if n <= s:
+            print(k)
+# 1~n까지 정수를 계속 더해 나갈 떄, 어디까지 더해야 입력한 수보다 같거나 커지는지
