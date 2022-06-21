@@ -1,3 +1,4 @@
+<C언어>
 #include <stdio.h>
 
 main() {
@@ -17,3 +18,11 @@ main() {
 	printf("%d", c);
 	
 }
+
+<파이썬>
+r,g,b = input().split()
+for i in range(0,int(r)):
+    for j in range(0,int(g)):
+        for k in range(0,int(b)):
+            print(i,j,k)
+print(int(r)*int(g)*int(b))
